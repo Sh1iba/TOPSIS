@@ -18,7 +18,8 @@ void TOPSIS(vector<vector<double>> lst,vector<double> weight){
         for (int j = 0; j < lst.size(); j++) {
             count += pow(lst[j][i], 2);
         }
-        normalization_num.push_back(sqrt(count));
+        normalization_num.push_back(sqrt(countgit
+        q));
     }
 
     for (int i = 0; i < lst[0].size(); i++) {
@@ -72,7 +73,7 @@ int main() {
             {0.5, 0.8, 1, 0.3, 0.7, 1},
             {1, 0.7, 0.4, 0.7, 0.2, 0.5},
             {1, 0.4, 0.3, 0.4, 0.25, 0.5},
-            {1, 0.4, 0.5, 0.35, 0.3, 0.6}
+            {1, 0.4, 0.5, 0.35, 0.3, 0.5}
     };
 
      TOPSIS(lst,weight);
